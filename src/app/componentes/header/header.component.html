@@ -1,0 +1,15 @@
+<div class="navbar">
+    <div class="d-flex logo-section d-all-center">
+        <div class="logo" [routerLink]="['/']">
+            Innovaccion
+        </div>
+        <div class="menu">
+            <ul>
+                <li 
+                *ngFor="let item of menu;let primero = first">
+                    {{item.name}}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
