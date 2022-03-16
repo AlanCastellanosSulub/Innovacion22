@@ -1,14 +1,15 @@
 <div class="navbar">
     <div class="d-flex logo-section d-all-center">
-        <div class="logo" [routerLink]="['/']">
-            Innovaccion
+        <div class="logo">
+            Centro de Innovacion Tecnologica de Quintana Roo
         </div>
         <div class="menu">
             <ul>
-                <li 
-                *ngFor="let item of menu;let primero = first">
-                    {{item.name}}
-                </li>
+                <li >Servicio</li>
+                <li>Galeria</li>
+                <li>Proyectos</li>
+                <li>Contactenos</li>
+                <li [routerLink]="['/','auth','login']" >Login</li>
             </ul>
         </div>
     </div>

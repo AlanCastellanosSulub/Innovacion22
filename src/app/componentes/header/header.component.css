@@ -25,6 +25,7 @@
     margin: 0;
     padding: 0;
     gap: 2rem;
+    
 }
 
 .navbar .menu ul li {
@@ -35,8 +36,8 @@
     opacity: .5;
     display: flex;
     justify-content: center;
-    align-content:center;
-    align-items:flex-start;
+    align-content: center;
+    align-items: center;
 }
 
 .navbar .menu ul li:hover {
@@ -49,7 +50,7 @@
 }
 
 .navbar .logo {
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -57,9 +58,6 @@
     gap: 1.5rem;
 }
 
-.user-section .notifications .uil {
-    font-size: 28px;
-}
 
 .user-section .notifications .count {
     position: absolute;
@@ -75,4 +73,11 @@
     border-radius: 8px;
     color: white;
     border: solid 2px white
+}
+
+.user-section .avatar img {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    object-fit: cover;
 }

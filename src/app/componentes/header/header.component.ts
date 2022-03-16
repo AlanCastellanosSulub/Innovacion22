@@ -27,7 +27,7 @@ export class HeaderComponent implements OnInit {
     ,
     {
       name: 'Login',
-      router: []
+      router: ['/','login']
     }
   ]
 
